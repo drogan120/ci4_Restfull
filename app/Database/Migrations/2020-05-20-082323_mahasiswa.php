@@ -27,7 +27,7 @@ class Mahasiswa extends Migration
 
 			]
 		]);
-		$this->forge->addkey('mahasiswa_id');
+		$this->forge->addKey('mahasiswa_id', true);
 		$this->forge->createTable('mahasiswa');
 	}
 
